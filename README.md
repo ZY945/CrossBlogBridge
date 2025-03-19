@@ -94,12 +94,12 @@ python -m venv test-env
 # 2.进入虚拟环境
 source ./test-env/bin/activate
 # 3.更新pip
-python -m pip install --upgrade pip
+./test-env/bin/python -m pip install --upgrade pip
 # 4.下载所需模块
 # pip install requests
 # pip install aiofiles
 # pip install aiohttp_requests
-pip install -r requirements.txt
+./test-env/bin/python pip install -r requirements.txt
 # 5.启动脚本(可以现根据所需进行修改)
 ./test-env/bin/python app.py 
 ```
