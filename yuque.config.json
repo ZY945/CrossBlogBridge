@@ -1,0 +1,27 @@
+{
+  "name": "hexo-site",
+  "postPath": "source/_posts/yuque",
+  "cachePath": "yuque.json",
+  "mdNameFormat": "title",
+  "adapter": "hexo",
+  "concurrency": 5,
+  "baseUrl": "https://www.yuque.com/api/v2",
+  "token": "你的token",
+  "login": "你的个人路径:https://www.yuque.com/后面的URL_ADDRESS",
+  "repo": "知识库路径",
+  "timeout": 30000,
+  "onlyPublished": false,
+  "onlyPublic": false,
+  "lastGeneratePath": "lastGeneratePath.log",
+  "saveImage": true,
+  "localImage": true,
+  "imgCdn": {
+    "enabled": false,
+    "concurrency": 0,
+    "imageBed": "qiniu",
+    "host": "",
+    "bucket": "",
+    "region": "",
+    "prefixKey": ""
+  }
+}
